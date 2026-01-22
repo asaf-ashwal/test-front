@@ -1,0 +1,176 @@
+body {
+  width: 100vw;
+  height: 100vh;
+
+  background: #ffffff;
+  background: linear-gradient(
+    1deg,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(200, 168, 224, 1) 56%,
+    rgba(237, 178, 50, 1) 100%
+  );
+}
+header {
+  width: 100vw;
+  height: 8vh;
+  position: relative;
+}
+.mainHeader {
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.logoicon {
+  position: absolute;
+  font-size: 24px;
+  top: 20px;
+  left: 190px;
+}
+.logo img {
+  width: 50px;
+}
+.logo p {
+  font-size: 32px;
+  width: 60px;
+  position: absolute;
+  top: 11px;
+  left: 62px;
+}
+
+.navsection nav {
+  position: absolute;
+  left: 30vw;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: gray;
+}
+nav ul li {
+  font-size: 20px;
+  color: gray;
+  display: inline-block;
+  margin: 25px;
+}
+
+.question {
+  position: absolute;
+  border-radius: 50%;
+  font-size: large;
+  top: 25px;
+  right: 20px;
+}
+
+.log {
+  padding: 7px 13px;
+  border-style: none;
+  border-radius: 18px;
+  font-size: larger;
+  position: absolute;
+  top: 18px;
+  right: 230px;
+  color: white;
+  background-color: black;
+}
+.sign {
+  padding: 7px 13px;
+  border: 0.5px solid gray;
+  border-radius: 18px;
+  font-size: larger;
+  position: absolute;
+  top: 18px;
+  right: 60px;
+}
+
+.imagessection {
+  position: absolute;
+  right: 500px;
+  width: 52vw;
+}
+.imagessection h1 {
+  font-size: 35px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  margin-left: 10px;
+}
+
+.imagessection h3 {
+  font-size: 23px;
+  margin-bottom: 18px;
+  margin-left: 10px;
+}
+.imagessection ul li {
+  margin-left: 11px;
+  display: inline-block;
+  width: 150px;
+}
+.imgcard img {
+  border-radius: 18px;
+  width: 150px;
+  height: 190px;
+}
+.imgcard p {
+  font-size: 20px;
+  margin: 10px 0;
+  text-align: center;
+  color: gray;
+}
+
+.buttons {
+  position: absolute;
+  right: 10px;
+  top: 60px;
+}
+.buttons button {
+  border: 1px grey solid;
+  background-color: #ffffffaf;
+  font-size: 30px;
+  border-radius: 50%;
+  width: 43px;
+  height: 43px;
+}
+
+.leftbutton {
+  color: rgba(0, 0, 0, 0.459);
+  border: 1px rgba(128, 128, 128, 0.521) solid;
+}
+
+.section2 {
+  position: absolute;
+  right: 500px;
+  width: 52vw;
+  bottom: 15vh;
+  height: 35vh;
+}
+.section2 ul li {
+  position: relative;
+  width: 48%;
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.section2 ul li img {
+  width: 50px;
+  border-radius: 18px;
+}
+.section2 h3 {
+  font-size: 19px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.section2 ul li p {
+  position: absolute;
+  left: 60px;
+  top: 20px;
+  margin-bottom: 50px;
+}
+
+.section2b{
+top: 10px;
+right: 20px;
+}

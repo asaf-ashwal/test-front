@@ -1,0 +1,127 @@
+.mainHeader {
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.logoicon {
+  position: absolute;
+  font-size: 24px;
+  top: 20px;
+  left: 190px;
+}
+.logo img {
+  width: 50px;
+}
+.logo p {
+  font-size: 32px;
+  width: 60px;
+  position: absolute;
+  top: 11px;
+  left: 62px;
+}
+
+.navsection nav {
+  position: absolute;
+  left: 30vw;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: gray;
+}
+nav ul li {
+  font-size: 20px;
+  color: gray;
+  display: inline-block;
+  margin: 25px;
+}
+
+.log {
+  padding: 7px 13px;
+  border-style: none;
+  border-radius: 18px;
+  font-size: larger;
+  position: absolute;
+  top: 18px;
+  right: 180px;
+  color: white;
+  background-color: black;
+}
+.sign {
+  padding: 7px 13px;
+  border: 0.5px solid gray;
+  border-radius: 18px;
+  font-size: larger;
+  position: absolute;
+  top: 18px;
+  right: 10px;
+}
+
+.rightSection {
+  padding: 280px 50px;
+  border-radius: 18px;
+  background-color: aqua;
+  background-image: url("https://t3.ftcdn.net/jpg/02/14/26/32/360_F_214263275_yFsy0Uk8QXxqp1vf31hHiJ0zKJwKdcoS.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 140px;
+  right: 20vw;
+}
+
+.blueSection {
+  width: 450px;
+  background-color: rgb(236, 234, 232);
+  padding: 20px;
+border-radius: 18px;
+}
+.blueSection h3 {
+    margin-left: 10px;
+    display: inline-block;
+  font-size: larger;
+  color: rgb(77, 75, 75);
+  margin-bottom: 10px;
+}
+.blueSection p {
+  font-size: 18px;
+  color: rgb(77, 75, 75);
+  /* margin: 10px; */
+}
+.leftSection {
+  width: 25vw;
+  height: 30vh;
+  position: absolute;
+  top: 350px;
+  left: 23vw;
+}
+.leftSection h1 {
+  margin: 15px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 900;
+}
+.leftSection p {
+  width: 95%;
+  margin-left: 15px;
+  margin-top: 20px;
+  /* margin: 30px 15px; */
+}
+
+.litleP {
+  color: rgb(97, 97, 97);
+  margin-bottom: 0;
+}
+
+.leftSection button {
+  margin: 18px 15px;
+  color: white;
+  background-color: black;
+  padding: 7px 13px;
+  border-style: none;
+  border-radius: 18px;
+  font-size: larger;
+}
